@@ -1,0 +1,23 @@
+{
+	"geode": "5.0.0",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "user.no-rounding-editor",
+	"name": "No Rounding Editor",
+	"version": "v1.0.0",
+	"developer": "user",
+	"description": "Removes object position rounding (grid snapping) on X and Y axes in the editor.",
+	"tags": ["editor", "utility"],
+	"settings": {
+		"enabled": {
+			"type": "bool",
+			"name": "Disable rounding",
+			"description": "Move objects freely on X and Y without snapping to the grid.",
+			"default": true
+		}
+	}
+}
